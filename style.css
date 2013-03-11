@@ -1,0 +1,131 @@
+/*
+Theme Name: Altwebservices
+Theme Uri: http://altwebservices.com
+Author: Altwebservices
+Author Uri: http://altwebservices.com
+Description: A Theme based in TB. 
+Version: 1.0
+*/
+
+body {
+	background:#fff;
+	font-family:"Georgia";
+	line-height:1.5;
+}
+
+#header {background:#fff;}
+#contentpart { background:#fff; 	padding:20px 0;}
+
+.nav {
+	padding:20px 0 0 0;
+}
+
+ /* Main marketing message and sign up button */
+.jumbotron {
+  margin: 80px 0;
+  text-align: center;
+}
+.jumbotron h1 {
+  font-size: 100px;
+  line-height: 1;
+}
+.jumbotron .lead {
+  font-size: 24px;
+  line-height: 1.25;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+
+/* Supporting marketing content */
+.marketing {
+  margin: 60px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Custom container */
+     .container {
+       margin: 0 auto;
+       max-width: 940px;
+     }
+     .container > hr {
+       margin: 60px 0;
+     }
+
+.carousel .container {position:relative}
+
+#myCarousel, #masthead {
+	/*background:#348ebd;*/
+	/*background:#1c1815 url('images/test.jpg') no-repeat center;*/
+	padding:40px 0;
+	
+	background-image: linear-gradient(bottom, rgb(66,162,214) 42%, rgb(61,144,189) 71%, rgb(44,135,184) 86%);
+	background-image: -o-linear-gradient(bottom, rgb(66,162,214) 42%, rgb(61,144,189) 71%, rgb(44,135,184) 86%);
+	background-image: -moz-linear-gradient(bottom, rgb(66,162,214) 42%, rgb(61,144,189) 71%, rgb(44,135,184) 86%);
+	background-image: -webkit-linear-gradient(bottom, rgb(66,162,214) 42%, rgb(61,144,189) 71%, rgb(44,135,184) 86%);
+	background-image: -ms-linear-gradient(bottom, rgb(66,162,214) 42%, rgb(61,144,189) 71%, rgb(44,135,184) 86%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.42, rgb(66,162,214)),
+		color-stop(0.71, rgb(61,144,189)),
+		color-stop(0.86, rgb(44,135,184))
+	);
+}
+
+
+#masthead h1 {color:#fff; font-weight:normal;}
+	
+.carousel {
+	margin-bottom:0;
+}
+	
+.navbar {
+	margin-bottom:0;
+}
+
+.subfooter {
+	background:#f6f5f5;	
+		padding:20px 0;
+}
+
+.footer {
+	color:#fff;
+	padding:20px 0;
+	background:#414143;
+}
+
+.nav-pills>.current-menu-item>a, .nav-pills>.current-menu-item>a:hover, .nav-pills>.current-menu-item>a:focus {
+color: #fff;
+background-color: #08c;
+}
+
+h2 {
+	color:#4a98cd;
+	font-family:"Georgia";
+	font-weight:normal;
+}
+
+h3 {
+	font-family:"Georgia";
+	font-weight:normal;
+}
+
+h4 {
+	margin-bottom:20px;
+	/*color:#4a98cd;*/
+		font-weight:normal;
+}
+
+#contentpart p { margin-bottom:25px;}
+
+.cleanform {
+	margin-left:0;
+	list-style-type:none;
+}

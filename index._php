@@ -1,0 +1,39 @@
+
+   
+       <?php get_header(); ?>
+      
+		
+	 
+      <!-- Example row of columns -->
+      <div id="contentpart">
+		<div class="container">
+	  		<div class="row-fluid">
+				<div class="span8">
+				<h2 style="margin-bottom:30px"><em>Why Altwebservices</em></h2>
+			
+				<p class="">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor,Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+				
+				<h2 style="margin:30px 0"><em>Our Strategy</em></h2>
+					<p class=""> <img style="float:left; width:120px; height:120px; margin:0 10px 0 0" data-src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/holder/holder.js" alt="">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor,Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+					<!-- <p class=""> <img style="float:left; width:120px; height:120px; margin:0 10px 0 0" data-src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/holder/holder.js" alt="">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor,Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+										<p class=""> <img style="float:left; width:120px; height:120px; margin:0 10px 0 0" data-src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/holder/holder.js" alt="">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor,Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p> -->
+				</div>
+				<div class="span4">
+					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?><?php endif; ?>
+					<div class="well">
+						<h4><em>Our Services</em></h4>
+						<p>Here's a shortlist of what we can do.</p>
+						<ul style="list-style-type:none">
+							<li><i class="icon-ok"></i> &nbsp;Identity Branding</li>
+							<li><i class="icon-ok"></i> &nbsp;Website Development</li>
+							<li><i class="icon-ok"></i> &nbsp;Search Engine Optimisation</li>
+						</ul>
+						<h3><a href="#" class="btn btn-info btn-medium">Know more »</a></h3>		
+					</div>						
+				</div>
+				
+		    </div> <!-- row-fluid -->
+		</div> <!-- container -->
+      </div> <!-- contentpart -->
+
+      <?php get_footer(); ?>
